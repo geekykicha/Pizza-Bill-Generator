@@ -7,7 +7,7 @@ public class DeluxPizza extends Pizza{
 		super.addExtraCheese();
 		super.addExtraToppings();
 	}
-
+// these 2 methods are override because for delux pizza addExtraCheese & addExtraToppings are pre-defined
 	@Override
 	public void addExtraCheese() {
 	}
